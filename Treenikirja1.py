@@ -115,34 +115,5 @@ while True:
     elif event == 'Lisää tiedot':  
         KPL = values['-KPL-']
         lisaa_tiedot(KPL)
-        #if kpl == 1:
-            #window[1].update(visible=True), window[11].update(visible=True), window[12].update(visible=True), window[13].update(visible=True)
-            #window[2].update(visible=False), window[21].update(visible=False), window[22].update(visible=False), window[23].update(visible=False)
-            #window[3].update(visible=False), window[31].update(visible=False), window[32].update(visible=False), window[33].update(visible=False)
-            #window[4].update(visible=False), window[41].update(visible=False), window[42].update(visible=False), window[43].update(visible=False)
-            #window[5].update(visible=False), window[51].update(visible=False), window[52].update(visible=False), window[53].update(visible=False)
-        #if kpl == 2:
-            #window[1].update(visible=True), window[11].update(visible=True), window[12].update(visible=True), window[13].update(visible=True)
-           # window[2].update(visible=True), window[21].update(visible=True), window[22].update(visible=True), window[23].update(visible=True)
-            #window[3].update(visible=False), window[31].update(visible=False), window[32].update(visible=False), window[33].update(visible=False)
-           # window[4].update(visible=False), window[41].update(visible=False), window[42].update(visible=False), window[43].update(visible=False)
-          #  window[5].update(visible=False), window[51].update(visible=False), window[52].update(visible=False), window[53].update(visible=False)
-        #if kpl == 3:
-           # window[1].update(visible=True), window[11].update(visible=True), window[12].update(visible=True), window[13].update(visible=True)
-          #  window[2].update(visible=True), window[21].update(visible=True), window[22].update(visible=True), window[23].update(visible=True)
-          #  window[3].update(visible=True), window[31].update(visible=True), window[32].update(visible=True), window[33].update(visible=True)
-          #  window[4].update(visible=False), window[41].update(visible=False), window[42].update(visible=False), window[43].update(visible=False)
-          #  window[5].update(visible=False), window[51].update(visible=False), window[52].update(visible=False), window[53].update(visible=False)
-       # if kpl == 4:
-        #    window[1].update(visible=True), window[11].update(visible=True), window[12].update(visible=True), window[13].update(visible=True)
-          #  window[2].update(visible=True), window[21].update(visible=True), window[22].update(visible=True), window[23].update(visible=True)
-           # window[3].update(visible=True), window[31].update(visible=True), window[32].update(visible=True), window[33].update(visible=True)
-          #  window[4].update(visible=True), window[41].update(visible=True), window[42].update(visible=True), window[43].update(visible=True)
-          #  window[5].update(visible=False), window[51].update(visible=False), window[52].update(visible=False), window[53].update(visible=False)
-       # if kpl == 5:
-          #  window[1].update(visible=True), window[11].update(visible=True), window[12].update(visible=True), window[13].update(visible=True)
-           # window[2].update(visible=True), window[21].update(visible=True), window[22].update(visible=True), window[23].update(visible=True)
-          #  window[3].update(visible=True), window[31].update(visible=True), window[32].update(visible=True), window[33].update(visible=True)
-          #  window[4].update(visible=True), window[41].update(visible=True), window[42].update(visible=True), window[43].update(visible=True)
-          #  window[5].update(visible=True), window[51].update(visible=True), window[52].update(visible=True), window[53].update(visible=True)
+        
 window.close()
