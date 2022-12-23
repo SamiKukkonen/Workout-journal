@@ -8,8 +8,6 @@ menu_def = [['File', ['Open', 'Close']]]
 excel_file = 'Treenikirja.xlsx'
 df = pd.read_excel(excel_file)
 
-# ------ Column Definition ------ #
-
 layout = [
     [sg.Menu(menu_def, tearoff=True)],
     [sg.Text('TREENIKIRJA', size=(50, 1), justification='center', font=("Helvetica", 25))],  # Otsikko
@@ -29,6 +27,7 @@ layout = [
         sg.Text('Paino', justification='center', size=(19,1), visible=True)],
 
 #SARJAT/TOISTOT/PAINOT OSIO
+    
    [sg.Input(size=(20,3),key=1, visible=False), 
     sg.Slider(range=(0, 10), orientation='h', tick_interval=(5), key=2, visible=False),   #1
     sg.Slider(range=(0, 20), orientation='h', tick_interval=(5), key=3, visible=False), 
